@@ -182,8 +182,3 @@ class TestGraphNavUtilUpdateWaypointsEdges:
         assert len(self.name_to_id) == 2
         assert self.name_to_id["Node1"] == "ABCDE"
         assert self.name_to_id["Node2"] == "DE"
-
-
-class TestFailOnPurpose:
-    def test_fail_on_purpose(self):
-        assert False
